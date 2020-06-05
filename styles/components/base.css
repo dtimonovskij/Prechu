@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+  }
+  *:last-child {
+    margin-bottom: 0;
+  }
+  
+  html {
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #555555;
+  }
+  
+  .container {
+    max-width: 982px;
+    padding: 0 16px;
+    margin: 0 auto;
+  }
+  
+  
+  a {
+    color: #3c3c3c;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+  
+  figure {
+    margin: 0;
+  }
+  
+  p,
+  ul,
+  ol {
+    margin: 0 0 16px 0;
+  }
+  
+  * + p,
+  * + ul,
+  * + ol {
+    margin-top: 16px;
+  }

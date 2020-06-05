@@ -1,0 +1,22 @@
+.section{
+position: relative;
+}
+.section-background{
+position: absolute;
+top: 0;
+right: 0;
+left: 0;
+bottom: 0;
+z-index: -2;
+}
+.section-background > img{
+    height: 100%;
+}
+.section-card{
+    margin: 20px 0;
+}
+@media(min-width:960px){
+    .section-card{
+        margin: 100px 0;
+    }
+}

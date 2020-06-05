@@ -1,0 +1,47 @@
+.button {
+    display: inline-block;
+    margin: 0;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    font-size: 31px;
+    line-height: 61.77px;
+    font-family: "Segoe WP";
+    padding: 11px 13px;
+    font-weight: 300;
+    text-transform: none;
+    text-decoration: none;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  
+  .button:hover {
+    text-decoration: none;
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+  
+  .button-primary {
+      margin-top: 45px;
+    color: #ffffff;
+    background-color: #5094f2;
+    border-color:2px;
+    margin-bottom: 41px;
+  }
+  @media only screen and (min-width:320px) and (max-width:480px){
+    .button-full {
+        width: 100%;
+      }
+  }
+  @media (min-width:960px){
+    .button{
+        font-size: 22px;
+font-weight: 300;
+line-height: 44.42px;
+    }
+  }
+
+

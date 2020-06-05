@@ -1,0 +1,94 @@
+
+.card-circle{
+    margin: 0 auto;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    width: 186px;
+height: 186px;
+}
+.icon-card{
+ font-size: 75px;
+}
+
+.card-body{
+text-align: center;
+}
+
+.card-title{
+    color: #5094f2;
+font-family: "Segoe WPN";
+font-size: 34px;
+font-weight: 400;
+line-height: 51.86px;
+margin-bottom: 0;
+}
+.card-desc{
+    color: #909090;
+font-family: "Segoe WPN";
+font-size: 19px;
+font-weight: 400;
+margin-top: 10px;
+}
+.blue{
+    background-color: #5094f2;
+}
+.red{
+    background-color: #d94748;
+}
+.yellow{
+    background-color: #ebbb11;
+}
+@media(min-width: 640px){
+    .card-circle{
+        margin: 0 ;
+        display: flex;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        width: 186px;
+    height: 186px;
+    }
+    .card-body{
+        text-align: start;
+        display: inline-block;
+        margin-left: 23px;
+        }
+        .card{
+            display: flex;
+        }
+        .card-title{
+            display: inline-block;
+        }
+        
+
+}
+@media(min-width: 960px){
+    .card-circle{
+        margin: 0 auto;
+        display: flex;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        width: 186px;
+    height: 186px;
+    }
+    .card{
+        display: block;
+    }
+    .card-body{
+     text-align: center;
+    }
+    .card-title{
+        font-size: 20px;
+font-weight: 400;
+line-height: 44.42px;
+    }
+    .card-desc{
+        font-size: 14px;
+font-weight: 400;
+    }
+        
+
+}
