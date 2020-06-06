@@ -1,4 +1,7 @@
-
+.card{
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(180, 178, 178);
+}
 .card-circle{
     margin: 0 auto;
     display: flex;
@@ -30,6 +33,7 @@ font-family: "Segoe WPN";
 font-size: 19px;
 font-weight: 400;
 margin-top: 10px;
+margin-bottom: 18px;
 }
 .blue{
     background-color: #5094f2;
@@ -49,6 +53,7 @@ margin-top: 10px;
         justify-content: center;
         width: 186px;
     height: 186px;
+    margin-bottom: 20px;
     }
     .card-body{
         text-align: start;
@@ -57,10 +62,12 @@ margin-top: 10px;
         }
         .card{
             display: flex;
+            
         }
         .card-title{
             display: inline-block;
         }
+        
         
 
 }
@@ -75,7 +82,9 @@ margin-top: 10px;
     height: 186px;
     }
     .card{
+        margin-top: 75px;
         display: block;
+        border-bottom: 1px solid transparent;
     }
     .card-body{
      text-align: center;

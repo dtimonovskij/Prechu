@@ -6,16 +6,20 @@
   }
   
   html {
-    font-family: "PT Sans", sans-serif;
-    font-size: 14px;
-    line-height: 18px;
-    color: #555555;
+    color: #909090;
+    font-family: "Segoe WPN";
+    font-size: 19px;
+    font-weight: 400;
   }
   
   .container {
     max-width: 982px;
     padding: 0 16px;
     margin: 0 auto;
+  }
+  .wrapper {
+    position: relative;
+    overflow: hidden;
   }
   
   

@@ -6,3 +6,43 @@
   .row > .column {
     padding: 33px;
   }
+  .row-shop{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+  .row-shop > .column {
+    padding: 15px;
+  }
+  @media(min-width:320px){
+    .row-phone{
+      margin: -15px;
+    }
+    .row-phone > .column {
+      padding: 15px;
+    }
+  }
+  @media(min-width:480px){
+    .row-phone{
+      margin: -33px;
+    }
+    .row-phone > .column {
+      padding: 33px;
+    }
+  }
+  @media(min-width:640px){
+    .row-phone{
+      margin: -60px;
+    }
+    .row-phone > .column {
+      padding: 60px;
+    }
+  }
+  @media(min-width:960px){
+    .row-phone{
+      margin: -80px;
+    }
+    .row-phone > .column {
+      padding: 80px;
+    }
+  }
