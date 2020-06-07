@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 15px;
+}
+.link-logo{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+font-size: 49px;
+font-weight: 300;
+letter-spacing: 0.42px;
+}
+.circle{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid  #5094f2;
+    background-color: #5094f2;
+    width: 53px;
+    height: 52px;
+    margin-right: 18px;
+}
