@@ -1,16 +1,29 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    margin: -33px;
-  }
-  .row > .column {
-    padding: 33px;
-  }
-  .row-shop{
-    display: flex;
-    flex-wrap: wrap;
-    margin: -15px;
-  }
-  .row-shop > .column {
-    padding: 15px;
-  }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: -20px;
+}
+.row > .column {
+  padding: 20px;
+}
+.row-shop{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: -15px;
+}
+.row-shop > .column {
+  padding: 15px;
+}

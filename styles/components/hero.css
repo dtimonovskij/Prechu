@@ -24,7 +24,7 @@
     
 }
 .phone{
-    max-width: 165px;
+    max-width: 352px;
     margin: 0 auto;
 }
 
@@ -34,14 +34,13 @@
         
     }
     .phone{
-        max-width: 353px;
         margin: 0;
     }
 }
 @media(min-width:960px){
     .hero-body{
         text-align: start;
-        max-width: 391px;
+        max-width: 500px;
         
     }
     .hero-title{

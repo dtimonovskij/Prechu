@@ -52,9 +52,6 @@ margin-bottom: 45px;
 max-width: 453px;
 }
 @media(min-width:960){
-    .section-card{
-        margin: 91px 0;
-    }
     .shop-image{
         max-width: 317px;
     }
