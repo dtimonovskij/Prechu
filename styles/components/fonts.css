@@ -13,7 +13,6 @@
   [class^="icon-"], [class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'icomoon' !important;
-    speak: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -43,21 +42,21 @@
   }
   .icon-menu .path1:before {
     content: "\e905";
-    
+    color: rgb(80, 148, 242);
   }
   .icon-menu .path2:before {
     content: "\e906";
     margin-left: -1.318359375em;
-    
+    color: rgb(255, 255, 255);
   }
   .icon-menu .path3:before {
     content: "\e907";
     margin-left: -1.318359375em;
-    
+    color: rgb(255, 255, 255);
   }
   .icon-menu .path4:before {
     content: "\e908";
     margin-left: -1.318359375em;
-  
+    color: rgb(255, 255, 255);
   }
   
