@@ -17,64 +17,50 @@ z-index: -2;
 }
 .section-shop{
     border-bottom: 1px solid rgb(180, 178, 178);
-
 }
 .title-shop{
+    margin-top: 90px;
     color: #6f7173;
-text-align: center;
-font-size: 37px;
+font-size: 35px;
 font-weight: 400;
-line-height: 40px;
-margin: 0;
+text-align: center;
 }
 .shop-image{
-    max-width: 215px;
+    max-width: 275px;
     margin: 0 auto;
     margin-top: 36px;
     margin-bottom: 45px;
 }
 
 .title-secondary{
-
     color: #6f7173;
     font-size: 26px;
     font-weight: 400;
     line-height: 29px;
     margin-top: 0;
-
-
 }
 .shop-desc{
-    font-size: 17px;
-font-weight: 300;
-line-height: 20px;
-margin-bottom: 45px;
-max-width: 453px;
+    font-size: 15px;
+    padding: 0px;
+    margin-bottom: 45px;
 }
-@media(min-width:960){
-    .shop-image{
-        max-width: 317px;
-    }
+.li-item{
+    list-style: none;
+    padding: 10px 0;
+    margin: 0px;
+}
+
+@media(min-width:960px){
     .title-shop{
-        color: #6f7173;
-    text-align: center;
-    font-size: 42px;
-    font-weight: 400;
-    line-height: 44.42px;
-    margin: 0;
+    text-align: start;
     }
     .shop-image{
-        max-width: 215px;
-        margin: 0 auto;
+        max-width: 500px;
         margin-top: 36px;
+        margin: 0;
     }
     .title-secondary{
-        color: #6f7173;
     font-size: 31px;
-    font-weight: 400;
-    line-height: 30px;
-    margin-top: 0;
-    
     }
 }
 .footer{

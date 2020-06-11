@@ -5,14 +5,24 @@
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 0.2px;
-    border-bottom: 3px solid transparent;
+    position: relative;
 }
-.nav-item:hover{
-    text-decoration: none;
-    border-bottom: 3px solid#5094f2;
+.nav-item:hover::before{
+    content: "";
+    position: absolute;
+    background-color: #5094f2;
+    height: 3px;
+    width: 100%;
+    bottom: -22px;
 }
-.nav-item.is-active{
-    border-bottom: 3px solid#5094f2;
+.nav-item.is-active::before{
+    content: "";
+    position: absolute;
+    background-color: #5094f2;
+    height: 3px;
+    width: 100%;
+    bottom: -22px;
+
 }
 @media(min-width:320px){
     .nav{

@@ -1,9 +1,4 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
+
 
 .row {
   display: -webkit-box;
@@ -22,8 +17,42 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: -15px;
+  margin: -20px;
 }
 .row-shop > .column {
-  padding: 15px;
+  padding: 20px;
+}
+.row-hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: -10px;
+}
+.row-hero > .column {
+  padding: 10px;
+}
+@media(min-width:480px){
+  .row-hero {
+    margin: -33px;
+  }
+  .row-hero > .column {
+    padding: 33px;
+  }
+}
+  
+@media(min-width:960px){
+  .row-hero {
+    margin: -50px;
+  }
+  .row-hero > .column {
+    padding:  50px;
+  }
+  .row-shop{
+    margin: -40px;
+  }
+  .row-shop > .column {
+    padding: 40px;
+  }
 }

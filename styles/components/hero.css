@@ -1,9 +1,7 @@
 .hero{
-    padding-top: 22px;
-    display: flex;
+    padding: 22px 0px;
 }
 .hero-body{
-    max-width: 391px;
     text-align: center;
     margin-bottom: 34px;
     
@@ -12,50 +10,43 @@
     padding-top: 22px;
     color: #ffffff;
     font-size: 23px;
-    line-height: 22px;
+    line-height: 1.2em;
     margin: 0;
+    font-weight: 300;
 }
 .hero-subtitle{
     display: inline-block;
-    font-size: 18px;
+    font-size: 16px;
     color: #ffffff;
-    line-height: 22px;
+    line-height: 1.2em;
     margin-top: 0px;
     
 }
 .phone{
-    max-width: 352px;
+    max-width: 345px;
     margin: 0 auto;
 }
-
+@media(min-width:320px){
+    .phone{
+        margin: 0 auto;
+        max-width: 200px;
+    }
+}
 @media(min-width:480px){
     .hero-body{
         text-align: start;
-        
+        max-width: 286px;;
     }
     .phone{
         margin: 0;
     }
 }
 @media(min-width:960px){
-    .hero-body{
-        text-align: start;
-        max-width: 500px;
-        
-    }
     .hero-title{
-        padding-top: 22px;
-        color: #ffffff;
         font-size: 30px;
-        line-height: 33px;
-        margin: 0;
     }
     .hero-subtitle{
-        display: inline-block;
         font-size: 26px;
-        color: #ffffff;
-        line-height: 29px;
-        margin-top: 0px;
         
     }
     
