@@ -33,6 +33,7 @@
 .row-hero > .column {
   padding: 10px;
 }
+
 @media(min-width:480px){
   .row-hero {
     margin: -33px;

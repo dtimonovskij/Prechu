@@ -29,13 +29,25 @@
 @media(min-width:320px){
     .phone{
         margin: 0 auto;
-        max-width: 200px;
+        max-width: 220px;
+    }
+}
+
+@media(min-width:320px){
+    .phone{
+        margin: 0 auto;
+        max-width: 220px;
     }
 }
 @media(min-width:480px){
     .hero-body{
         text-align: start;
-        max-width: 286px;;
+        max-width: 286px;
+    }
+}
+@media(min-width:640px){
+    .hero-body{
+        margin-top: 40px;
     }
     .phone{
         margin: 0;
