@@ -1,5 +1,4 @@
 
-
 .card{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -77,9 +76,9 @@ margin-bottom: 18px;
     margin-right: 23px ;
     }
     .card-body{
-         text-align: start;
+        text-align: start;
         display: inline-block;
-margin: 0 ;
+        margin: 0 ;
         }
         .card{
             display: -webkit-box;
@@ -90,9 +89,6 @@ margin: 0 ;
         .card-title{
             display: inline-block;
         }
-        
-        
-
 }
 @media(min-width: 960px){
     .card-circle{
